@@ -5,26 +5,17 @@
 To initialize (where `${ENV}` is listed in the table below):
 
 ```shell
-nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#${ENV}"
-```
-
-You can also use the shorter GitHub form:
-
-```shell
-nix flake init -t github:the-nix-way/dev-templates#${ENV}
+nix flake init -t github:RandomNEET/dev-templates#${ENV}
 ```
 
 Here's an example (for the [`rust`](./rust) template):
 
 ```shell
 # Initialize in the current project
-nix flake init --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust"
-
-# or with the short GitHub form
-nix flake init -t github:the-nix-way/dev-templates#rust
+nix flake init -t github:RandomNEET/dev-templates#rust
 
 # Create a new project
-nix flake new --template "https://flakehub.com/f/the-nix-way/dev-templates/*#rust" ${NEW_PROJECT_DIRECTORY}
+nix flake new --template "https://github.com/RandomNEET/dev-templates/*#rust" ${NEW_PROJECT_DIRECTORY}
 ```
 
 ## How to use the templates
