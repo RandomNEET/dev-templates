@@ -38,6 +38,7 @@ Once your preferred template has been initialized, you can use the provided shel
 | [Dhall]                  | [`dhall`](./dhall/)           |
 | [Elixir]                 | [`elixir`](./elixir/)         |
 | [Elm]                    | [`elm`](./elm/)               |
+| [Embedded]               | [`embedded`](./embedded/)     |
 | Empty (change at will)   | [`empty`](./empty)            |
 | [Gleam]                  | [`gleam`](./gleam/)           |
 | [Go]                     | [`go`](./go/)                 |
@@ -133,6 +134,15 @@ The sections below list what each template includes. In all cases, you're free t
 
 - [Elm]
 - [elm2nix]
+
+### [`embedded`](./embedded/)
+
+- [fhs]
+- [gcc-arm-embedded]
+- [openocd]
+- [python313]
+- [tio]
+- [dotnet6]
 
 ### [Empty](./empty/)
 

@@ -103,7 +103,7 @@
                 --experimental-features 'nix-command flakes' \
                 flake init \
                 --template \
-                "https://flakehub.com/f/the-nix-way/dev-templates/0.1#''${TEMPLATE}"
+                "https://github.com/RandomNEET/dev-templates/0.1#''${TEMPLATE}"
             '';
           };
         }
@@ -154,6 +154,11 @@
           elm = {
             path = ./elm;
             description = "Elm development environment";
+          };
+
+          embedded = {
+            path = ./embedded;
+            description = "Embedded development environment";
           };
 
           empty = {
