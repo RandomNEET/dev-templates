@@ -140,7 +140,6 @@ The sections below list what each template includes. In all cases, you're free t
 - [fhs]
 - [gcc-arm-embedded]
 - [openocd]
-- [python313]
 - [tio]
 - [dotnet6]
 

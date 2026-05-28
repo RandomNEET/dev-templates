@@ -28,8 +28,6 @@
         pkgs:
         let
           baseUtils = with pkgs; [
-            bash
-            zsh
             git
             curl
             wget
@@ -40,7 +38,6 @@
           devTools = with pkgs; [
             gcc-arm-embedded
             openocd
-            python313
             tio
             dotnet-sdk_6
           ];
